@@ -6,7 +6,7 @@ This repository replicates the text-classification results of Joulin et al. (201
 [fastText](https://github.com/facebookresearch/fastText) code, applies the method to a new existing dataset
 (BBC News), and constructs and evaluates a new dataset (BBC-Sentences) with human and LLM-as-judge annotation.
 
-[![Open In Colab](https://colab.research.google.com/github/Calvin-Kong-7160/COMP8240_FastText_Replication/blob/main/fasttext_replication.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Calvin-Kong-7160/COMP8240_FastText_Replication/blob/main/fasttext_replication.ipynb)
 
 ## How to run
 
