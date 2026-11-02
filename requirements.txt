@@ -1,0 +1,5 @@
+# fastText itself is built from source by the notebook (git clone + make)
+datasets
+pandas
+scikit-learn
+ipywidgets
