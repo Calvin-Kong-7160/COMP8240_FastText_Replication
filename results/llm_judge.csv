@@ -1,0 +1,696 @@
+id,sentence,inherited_label,fasttext_pred,llm_topic,llm_on_topic,llm_pred_plausible,llm_reason,llm_raw,llm_model
+0,bollywood has truly gone global says taran adarsh editor of indian film journal trade guide .,entertainment,entertainment,entertainment,Y,Y,"The sentence specifically mentions Bollywood and an editor of a film journal, directly indicating an entertainment topic.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence specifically mentions Bollywood and an editor of a film journal, directly indicating an entertainment topic.""
+}
+```",google/gemini-3.5-flash
+1,this would give gazprom an extra 14 days to accumulate the needed funds .,business,politics,business,Y,N,"The sentence strictly concerns a company accumulating funds, which is a financial matter clearly belonging to business rather than politics.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence strictly concerns a company accumulating funds, which is a financial matter clearly belonging to business rather than politics.""
+}
+```",google/gemini-3.5-flash
+2,he gained a reputation as a left-wing firebrand voting against his own labour government s spending cuts proposals in 1975 and later rejecting a junior post in james callaghan s administration .,politics,politics,politics,Y,Y,"The sentence explicitly discusses political ideology, voting against government proposals, and political posts within an administration.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly discusses political ideology, voting against government proposals, and political posts within an administration.""
+}
+```",google/gemini-3.5-flash
+3,michael will attend the festival to introduce the screening on 16 february .,entertainment,entertainment,entertainment,Y,Y,Attending a festival to introduce a film or arts screening clearly relates to entertainment.,"```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""Attending a festival to introduce a film or arts screening clearly relates to entertainment.""
+}
+```",google/gemini-3.5-flash
+4,we repay loans when they are due but do not comment to individual financial matters he said insisting he enjoyed a warm and constructive relationship to lord ashcroft .,politics,politics,politics,Y,Y,The sentence references a political relationship with Lord Ashcroft alongside comments on financial loans.,"```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence references a political relationship with Lord Ashcroft alongside comments on financial loans.""
+}
+```",google/gemini-3.5-flash
+5,this enables the institution to put the matter behind us he told reuters .,business,business,none,N,Y,"The sentence vaguely mentions an institution resolving an issue, which lacks specific context to determine a single topic but commonly appears in corporate business news.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence vaguely mentions an institution resolving an issue, which lacks specific context to determine a single topic but commonly appears in corporate business news.""
+}
+```",google/gemini-3.5-flash
+6,he said some did not understand our history they are weak and are not committed to the cause of the carib people .,entertainment,politics,politics,N,Y,"The sentence features rhetoric about ethnic identity and political activism, which strongly signals politics rather than entertainment.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence features rhetoric about ethnic identity and political activism, which strongly signals politics rather than entertainment.""
+}
+```",google/gemini-3.5-flash
+7,mr townsden said if he had committed any crimes he should be prosecuted in australia not the us .,tech,politics,politics,N,Y,"The sentence discusses legal prosecution and international jurisdiction between nations, which falls under politics and contains no mention of technology.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses legal prosecution and international jurisdiction between nations, which falls under politics and contains no mention of technology.""
+}
+```",google/gemini-3.5-flash
+8,bad e-mail habits sustains spam the bad behaviour of e-mail users is helping to sustain the spam industry a new study has found .,tech,tech,tech,Y,Y,"The sentence explicitly focuses on email habits and spam, which directly relates to technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly focuses on email habits and spam, which directly relates to technology.""
+}
+```",google/gemini-3.5-flash
+9,the agreement will see some 12 trillion won of debt converted into equity .,business,business,business,Y,Y,"The sentence discusses financial debt being converted into equity, which is a clear indicator of a business topic.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses financial debt being converted into equity, which is a clear indicator of a business topic.""
+}
+```",google/gemini-3.5-flash
+10,in paris we looked good throughout the team and a point was the least we deserved because we had a number of chances .,sport,sport,sport,Y,Y,"The sentence clearly uses sports terminology such as 'team', 'a point', and creating 'chances' to describe a match outcome.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence clearly uses sports terminology such as 'team', 'a point', and creating 'chances' to describe a match outcome.""
+}
+```",google/gemini-3.5-flash
+11,although his album sales in the uk are down - palookaville stayed in the uk top 75 for just three weeks - cook has achieved recent global success with his beach parties .,entertainment,entertainment,entertainment,Y,Y,"The sentence discusses album sales, music charts, and live events, which fall directly under entertainment.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses album sales, music charts, and live events, which fall directly under entertainment.""
+}
+```",google/gemini-3.5-flash
+12,de niro recently spent three weeks at the top with comedy meet the fockers which was at number five this week .,entertainment,entertainment,entertainment,Y,Y,"The sentence mentions actor De Niro, the comedy film Meet the Fockers, and box office chart positions, clearly indicating an entertainment topic.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence mentions actor De Niro, the comedy film Meet the Fockers, and box office chart positions, clearly indicating an entertainment topic.""
+}
+```",google/gemini-3.5-flash
+13,the film showing out of competition in berlin is nominated for three oscars including best actor for cheadle .,entertainment,entertainment,entertainment,Y,Y,"The sentence explicitly mentions a film, a film festival, and Oscar nominations, which directly relates to entertainment.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions a film, a film festival, and Oscar nominations, which directly relates to entertainment.""
+}
+```",google/gemini-3.5-flash
+14,merriam-webster said blog headed the list of most looked-up terms on its site during the last twelve months .,tech,tech,tech,Y,Y,"The sentence focuses on 'blog' and website lookup trends, which directly relates to internet technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on 'blog' and website lookup trends, which directly relates to internet technology.""
+}
+```",google/gemini-3.5-flash
+15,the damage to software will not happen overnight of course .,tech,tech,tech,Y,Y,The explicit mention of 'software' directly links the sentence to the technology topic.,"```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The explicit mention of 'software' directly links the sentence to the technology topic.""
+}
+```",google/gemini-3.5-flash
+16,irish finish with home game republic of ireland manager brian kerr has been granted his wish for a home game as the final world cup qualifier .,sport,sport,sport,Y,Y,"The sentence explicitly mentions a team manager, a home game, and a World Cup qualifier, which clearly relates to sports.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions a team manager, a home game, and a World Cup qualifier, which clearly relates to sports.""
+}
+```",google/gemini-3.5-flash
+17,the pm insisted nothing would derail labour s campaign despite a new book saying he has upset his chancellor by backing out of a pledge to stand aside .,politics,politics,politics,Y,Y,"The sentence explicitly mentions the Prime Minister, Labour's election campaign, and the Chancellor, which clearly signals a political topic.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions the Prime Minister, Labour's election campaign, and the Chancellor, which clearly signals a political topic.""
+}
+```",google/gemini-3.5-flash
+18,there is no suggestion any of them profited financially .,tech,politics,none,N,Y,"The sentence denies personal financial gain in an investigation or scandal context, which is very common in political news, but it contains no tech-related information.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence denies personal financial gain in an investigation or scandal context, which is very common in political news, but it contains no tech-related information.""
+}
+```",google/gemini-3.5-flash
+19,it now has a 1 . 3 megapixel camera and a music player that can handle multiple formats rather than just mp3s .,tech,tech,tech,Y,Y,"The sentence describes device hardware and software features like a camera resolution, music player, and audio formats, which clearly signal a technology topic.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence describes device hardware and software features like a camera resolution, music player, and audio formats, which clearly signal a technology topic.""
+}
+```",google/gemini-3.5-flash
+20,the sequel follows the master criminals as they try to pull off three major heists across europe .,entertainment,entertainment,entertainment,Y,Y,The reference to a 'sequel' following a plot about master criminals clearly indicates a film or book storyline in the entertainment category.,"```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The reference to a 'sequel' following a plot about master criminals clearly indicates a film or book storyline in the entertainment category.""
+}
+```",google/gemini-3.5-flash
+21,but in many cases firms had been forced to top up funds to tackle yawning deficits .,business,business,business,Y,Y,"The sentence discusses corporate finances and funding deficits, which is directly related to business.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses corporate finances and funding deficits, which is directly related to business.""
+}
+```",google/gemini-3.5-flash
+22,we will be challenging to come first as much as every arsenal player will be challenging to come first .,sport,sport,sport,Y,Y,The reference to an 'arsenal player' and competing to 'come first' clearly indicates a sports competition context.,"```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The reference to an 'arsenal player' and competing to 'come first' clearly indicates a sports competition context.""
+}
+```",google/gemini-3.5-flash
+23,the government has enough problems funding schools and health services .,entertainment,politics,politics,N,Y,"The sentence discusses government funding for public services, which directly relates to politics rather than entertainment.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses government funding for public services, which directly relates to politics rather than entertainment.""
+}
+```",google/gemini-3.5-flash
+24,tomorrow you will discover and consume music via one device - the mobile .,tech,tech,tech,Y,Y,"The sentence focuses on mobile devices as the future medium for music consumption, clearly signaling technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on mobile devices as the future medium for music consumption, clearly signaling technology.""
+}
+```",google/gemini-3.5-flash
+25,he then became secretary of the commission on social justice .,politics,politics,politics,Y,Y,Appointment to a commission on social justice clearly indicates a political and public policy context.,"```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""Appointment to a commission on social justice clearly indicates a political and public policy context.""
+}
+```",google/gemini-3.5-flash
+26,that s international bankers the world trade organisation the international monetary fund the world bank and primarily the european union .,politics,business,politics,Y,Y,"The sentence lists major political and global governance bodies like the EU, while the heavy focus on international trade and banking institutions makes business a very plausible prediction.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence lists major political and global governance bodies like the EU, while the heavy focus on international trade and banking institutions makes business a very plausible prediction.""
+}
+```",google/gemini-3.5-flash
+27,it could also mean that how we get films and in what format will widen .,tech,tech,entertainment,N,Y,"The sentence primarily concerns films, which signals entertainment, but discussing media distribution formats makes tech a plausible interpretation.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence primarily concerns films, which signals entertainment, but discussing media distribution formats makes tech a plausible interpretation.""
+}
+```",google/gemini-3.5-flash
+28,best actor foxx could not make the ceremony but actress helen mirren read out his acceptance speech .,entertainment,entertainment,entertainment,Y,Y,"The sentence explicitly mentions actors, an awards ceremony, and an acceptance speech, which clearly belongs to entertainment.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions actors, an awards ceremony, and an acceptance speech, which clearly belongs to entertainment.""
+}
+```",google/gemini-3.5-flash
+29,and given the option to take the 25-yard set-piece quickly henry curled in a shot with cech still organising his wall .,sport,sport,sport,Y,Y,"The mention of a '25-yard set-piece', 'curled in a shot', and organizing a 'wall' clearly describes a football (soccer) match.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The mention of a '25-yard set-piece', 'curled in a shot', and organizing a 'wall' clearly describes a football (soccer) match.""
+}
+```",google/gemini-3.5-flash
+30,in 2003 britons spent £1 152m on games more than ever before .,tech,tech,business,N,Y,"The sentence focuses on consumer spending statistics, which signals business, though 'games' makes technology a plausible prediction.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on consumer spending statistics, which signals business, though 'games' makes technology a plausible prediction.""
+}
+```",google/gemini-3.5-flash
+31,the caribs have long denied their ancestors practised cannibalism .,entertainment,business,none,N,N,"The sentence discusses historical and anthropological claims regarding the Carib people, which does not relate to entertainment or business.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence discusses historical and anthropological claims regarding the Carib people, which does not relate to entertainment or business.""
+}
+```",google/gemini-3.5-flash
+32,i was waiting for eidur gudjohnsen to move and give me some space .,sport,sport,sport,Y,Y,The mention of footballer Eidur Gudjohnsen and creating space on the field clearly signals a sports context.,"```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The mention of footballer Eidur Gudjohnsen and creating space on the field clearly signals a sports context.""
+}
+```",google/gemini-3.5-flash
+33,however one has to credit ireland flanker johnny o connor for cleverly scooping the ball away and blocking any evidence of a touchdown .,sport,sport,sport,Y,Y,"The sentence clearly describes a rugby action, referencing an Ireland flanker and preventing a touchdown.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence clearly describes a rugby action, referencing an Ireland flanker and preventing a touchdown.""
+}
+```",google/gemini-3.5-flash
+34,federer has been without a coach since splitting with peter lundgren in 2003 .,sport,sport,sport,Y,Y,"The sentence explicitly mentions tennis star Roger Federer and his coach, clearly signaling a sports topic.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions tennis star Roger Federer and his coach, clearly signaling a sports topic.""
+}
+```",google/gemini-3.5-flash
+35,ge is the us biggest firm based on stock market valuation .,business,business,business,Y,Y,"The sentence discusses a major company and its stock market valuation, which clearly signals the business topic.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses a major company and its stock market valuation, which clearly signals the business topic.""
+}
+```",google/gemini-3.5-flash
+36,economic growth is set to halve in singapore this year to between 3% and 5% .,business,business,business,Y,Y,"The sentence explicitly discusses Singapore's economic growth rates, which is a core business topic.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly discusses Singapore's economic growth rates, which is a core business topic.""
+}
+```",google/gemini-3.5-flash
+37,and intense discussions were taking place with us officials to convince them it was the right thing to do .,politics,entertainment,politics,Y,N,"The mention of intense discussions with US officials clearly signals a political context, with no relation to entertainment.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The mention of intense discussions with US officials clearly signals a political context, with no relation to entertainment.""
+}
+```",google/gemini-3.5-flash
+38,eminem s group d12 were surprise winners in the best hip-hop category beating the beastie boys jay-z kanye west and nelly .,entertainment,entertainment,entertainment,Y,Y,"The sentence discusses music artists and a hip-hop award category, which clearly belongs to the entertainment topic.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses music artists and a hip-hop award category, which clearly belongs to the entertainment topic.""
+}
+```",google/gemini-3.5-flash
+39,for metlife the us s leading insurance company the purchase gives it access to a much larger distribution network .,business,tech,business,Y,N,"The sentence clearly describes a corporate acquisition and market expansion by an insurance company, which is strictly business-related with no connection to technology.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence clearly describes a corporate acquisition and market expansion by an insurance company, which is strictly business-related with no connection to technology.""
+}
+```",google/gemini-3.5-flash
+40,almost one in five us citizens aged under 30 have one .,tech,business,none,N,Y,"The sentence presents a demographic ownership statistic without mentioning what is owned, leaving the topic ambiguous, though the market-survey style makes business a plausible guess.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence presents a demographic ownership statistic without mentioning what is owned, leaving the topic ambiguous, though the market-survey style makes business a plausible guess.""
+}
+```",google/gemini-3.5-flash
+41,this draft bill is no exception .,politics,tech,politics,Y,N,"The term 'draft bill' clearly signals politics, while there is no mention of technology to support the predicted topic.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The term 'draft bill' clearly signals politics, while there is no mention of technology to support the predicted topic.""
+}
+```",google/gemini-3.5-flash
+42,he s a decent lad .,sport,sport,none,N,N,The sentence is a generic personal comment with no explicit references to sports or any other specific news topic.,"```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence is a generic personal comment with no explicit references to sports or any other specific news topic.""
+}
+```",google/gemini-3.5-flash
+43,the four ugandan ngos organising the play intended to raise money to campaign to stop violence against women and to raise funds for the war-torn north of the country .,entertainment,business,entertainment,Y,N,"The sentence explicitly mentions organising a theatrical play, which signals entertainment, whereas NGO fundraising for humanitarian campaigns does not constitute business news.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence explicitly mentions organising a theatrical play, which signals entertainment, whereas NGO fundraising for humanitarian campaigns does not constitute business news.""
+}
+```",google/gemini-3.5-flash
+44,at a dab conference in cannes several makers of dab chips for mobiles announced smaller lower- cost chips which consume less power .,tech,tech,tech,Y,Y,"The sentence explicitly discusses mobile chip hardware, power efficiency, and digital broadcasting technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly discusses mobile chip hardware, power efficiency, and digital broadcasting technology.""
+}
+```",google/gemini-3.5-flash
+45,prosecuting attorney carol lam said : all us companies should take note that attempting to bribe foreign officials is criminal conduct and will be appropriately prosecuted .,business,business,business,Y,Y,"The sentence explicitly addresses US companies and foreign corporate bribery, directly signaling a business topic.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly addresses US companies and foreign corporate bribery, directly signaling a business topic.""
+}
+```",google/gemini-3.5-flash
+46,the changes proposed by lord dubs were a complex and controversial undertaking raising major constitutional issues he said .,politics,politics,politics,Y,Y,"The sentence explicitly refers to legislative proposals by a peer (Lord Dubs) and constitutional issues, which directly concern politics.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly refers to legislative proposals by a peer (Lord Dubs) and constitutional issues, which directly concern politics.""
+}
+```",google/gemini-3.5-flash
+47,baa also says it has attempted to involve communities in any future airport plans .,politics,politics,business,N,Y,"The sentence focuses on BAA's corporate plans and community consultation, making it primarily a business topic, though airport expansion is strongly linked to political debate.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on BAA's corporate plans and community consultation, making it primarily a business topic, though airport expansion is strongly linked to political debate.""
+}
+```",google/gemini-3.5-flash
+48,design considerations also exist .,tech,tech,none,N,N,The sentence is too general and abstract to clearly signal tech or any other specific topic.,"```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence is too general and abstract to clearly signal tech or any other specific topic.""
+}
+```",google/gemini-3.5-flash
+49,political and public pressure may well push the two firms to reach a compromise .,business,business,business,Y,Y,The mention of two firms reaching a compromise clearly signals a business context.,"```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The mention of two firms reaching a compromise clearly signals a business context.""
+}
+```",google/gemini-3.5-flash
+50,when i was in london i did all of my runs on the treadmill which isn t the same as exercising outdoors .,sport,entertainment,sport,Y,N,"The sentence explicitly discusses running, treadmills, and outdoor exercise, which clearly signals sport rather than entertainment.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence explicitly discusses running, treadmills, and outdoor exercise, which clearly signals sport rather than entertainment.""
+}
+```",google/gemini-3.5-flash
+51,these eight players will be brought together in london on 3-5 december for the bloodline tournament that will find the best two players .,tech,sport,sport,N,Y,"The sentence describes a competitive tournament involving players, which strongly signals sports rather than technology.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence describes a competitive tournament involving players, which strongly signals sports rather than technology.""
+}
+```",google/gemini-3.5-flash
+52,a lot is said and written about sav but he has been terrific for birmingham city the last two and a half years he said .,sport,sport,sport,Y,Y,"The phrase 'terrific for birmingham city' clearly refers to a player's performance for a football club, indicating a sports topic.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The phrase 'terrific for birmingham city' clearly refers to a player's performance for a football club, indicating a sports topic.""
+}
+```",google/gemini-3.5-flash
+53,merriam-webster said blog was the word that people have asked to be defined or explained most often over the last 12 months .,tech,tech,tech,Y,Y,"The sentence focuses on the word 'blog', an internet and technology term, making tech the most appropriate category.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on the word 'blog', an internet and technology term, making tech the most appropriate category.""
+}
+```",google/gemini-3.5-flash
+54,he said : we will establish a system . . .,politics,politics,none,N,Y,"The sentence is too generic to signal a specific topic on its own, though political rhetoric is a plausible interpretation.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence is too generic to signal a specific topic on its own, though political rhetoric is a plausible interpretation.""
+}
+```",google/gemini-3.5-flash
+55,and ronan o gara s tremendous ability to control the game was also a crucial component .,sport,sport,sport,Y,Y,The reference to rugby player Ronan O'Gara and controlling 'the game' clearly signals a sports topic.,"```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The reference to rugby player Ronan O'Gara and controlling 'the game' clearly signals a sports topic.""
+}
+```",google/gemini-3.5-flash
+56,gallas sees two-horse race chelsea s william gallas believes they will battle it out with arsenal for the premiership in the coming months .,sport,sport,sport,Y,Y,"The sentence clearly discusses Premier League football, mentioning teams Chelsea and Arsenal and player William Gallas.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence clearly discusses Premier League football, mentioning teams Chelsea and Arsenal and player William Gallas.""
+}
+```",google/gemini-3.5-flash
+57,those were games we lost .,sport,tech,sport,Y,N,The phrase 'games we lost' clearly refers to sports competitions and has no indication of a technology topic.,"```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The phrase 'games we lost' clearly refers to sports competitions and has no indication of a technology topic.""
+}
+```",google/gemini-3.5-flash
+58,mr newton is a critically acclaimed jazz and classical flutist composer performer and university professor .,entertainment,tech,entertainment,Y,N,"The sentence clearly describes a musician and performer, which belongs under entertainment, with no connection to technology.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence clearly describes a musician and performer, which belongs under entertainment, with no connection to technology.""
+}
+```",google/gemini-3.5-flash
+59,the fastest-growing technologies in 2004 included blank dvd media liquid crystal display ( lcd ) tvs digital video recorders ( dvrs ) and portable music players .,tech,tech,tech,Y,Y,The sentence explicitly lists several consumer technology devices and describes them as fastest-growing technologies.,"```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly lists several consumer technology devices and describes them as fastest-growing technologies.""
+}
+```",google/gemini-3.5-flash
+60,the original cabir worm came to light in mid-june 2004 when it was sent to anti-virus firms as a proof-of-concept program .,tech,tech,tech,Y,Y,"The sentence discusses a computer worm, anti-virus firms, and proof-of-concept programming, which clearly falls under technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses a computer worm, anti-virus firms, and proof-of-concept programming, which clearly falls under technology.""
+}
+```",google/gemini-3.5-flash
+61,one anti-hunt protester was taken to hospital after a violent clash in kent .,politics,sport,politics,Y,N,"Anti-hunt protests are a form of political activism regarding legislation and policy, making this political news rather than sports coverage.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""Anti-hunt protests are a form of political activism regarding legislation and policy, making this political news rather than sports coverage.""
+}
+```",google/gemini-3.5-flash
+62,many will be sceptical - gamers were given similar predictions during the last transition of console hardware - but this time it would seem to be more likely .,tech,tech,tech,Y,Y,"The sentence specifically mentions 'gamers' and 'console hardware', clearly indicating a technology topic.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence specifically mentions 'gamers' and 'console hardware', clearly indicating a technology topic.""
+}
+```",google/gemini-3.5-flash
+63,supercomputers are hugely important for working out very complex problems across science and society .,tech,politics,tech,Y,N,"The sentence explicitly discusses supercomputers and science, which clearly signals technology rather than politics.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence explicitly discusses supercomputers and science, which clearly signals technology rather than politics.""
+}
+```",google/gemini-3.5-flash
+64,campbell lifts lid on united feud arsenal s sol campbell has called the rivalry between manchester united and the gunners bitter and personal .,sport,sport,sport,Y,Y,"The sentence explicitly mentions football players and teams like Sol Campbell, Arsenal, and Manchester United, clearly signaling a sports topic.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions football players and teams like Sol Campbell, Arsenal, and Manchester United, clearly signaling a sports topic.""
+}
+```",google/gemini-3.5-flash
+65,hitler row over welsh arts cash an artist critical of welsh arts funding being brought under assembly government control has denied comparing the idea with dictatorships in russia and germany .,politics,politics,politics,Y,Y,"The sentence focuses on government control of arts funding, which clearly signals political news.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence focuses on government control of arts funding, which clearly signals political news.""
+}
+```",google/gemini-3.5-flash
+66,he said police would challenge the one of two isolated hunts which are threatening to break the law .,politics,politics,politics,Y,Y,"The sentence concerns police enforcement and legal challenges regarding fox hunting laws, a public policy and political issue.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence concerns police enforcement and legal challenges regarding fox hunting laws, a public policy and political issue.""
+}
+```",google/gemini-3.5-flash
+67,a different story will screen in the panorama section of the festival which runs from 10-20 february .,entertainment,entertainment,entertainment,Y,Y,The mention of screening a film/story at a festival clearly signals the entertainment topic.,"```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The mention of screening a film/story at a festival clearly signals the entertainment topic.""
+}
+```",google/gemini-3.5-flash
+68,the fourth-quarter losses at general motors europe totalled $345m up from $66m during the same period in 2003 .,business,business,business,Y,Y,The sentence clearly focuses on financial quarterly losses and earnings figures for General Motors Europe.,"```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence clearly focuses on financial quarterly losses and earnings figures for General Motors Europe.""
+}
+```",google/gemini-3.5-flash
+69,he urged the government to scrap the grossly unfair tax completely .,politics,politics,politics,Y,Y,"The sentence mentions urging the government to alter tax policy, which directly relates to politics.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence mentions urging the government to alter tax policy, which directly relates to politics.""
+}
+```",google/gemini-3.5-flash
+70,it may have to go the whole way and have nfl-style video cameras all over the field or slap the vociferous perpetrators over the knuckles .,sport,tech,sport,Y,N,"The reference to 'nfl-style' and a sports field clearly signals sport, and mentioning video cameras does not make tech a plausible primary topic.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The reference to 'nfl-style' and a sports field clearly signals sport, and mentioning video cameras does not make tech a plausible primary topic.""
+}
+```",google/gemini-3.5-flash
+71,there is a hard rump of have-nots who are not engaging with the net .,tech,tech,tech,Y,Y,"The phrase 'engaging with the net' directly refers to internet usage, which falls under technology.","```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The phrase 'engaging with the net' directly refers to internet usage, which falls under technology.""
+}
+```",google/gemini-3.5-flash
+72,both teams are fielding top-quality sides and i really hope that the rugby public and community get behind this game to raise as much money as possible for such a deserving cause .,sport,sport,sport,Y,Y,"The sentence explicitly mentions rugby, teams, and a game, clearly indicating a sports context.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly mentions rugby, teams, and a game, clearly indicating a sports context.""
+}
+```",google/gemini-3.5-flash
+73,more than a dozen celebrities are scheduled to attend among them will smith kevin spacey and keanu reeves .,entertainment,entertainment,entertainment,Y,Y,"The sentence mentions celebrities and famous actors, which clearly indicates an entertainment topic.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence mentions celebrities and famous actors, which clearly indicates an entertainment topic.""
+}
+```",google/gemini-3.5-flash
+74,mr walsh suggested that new studios should make games for mobile phones and handheld consoles like the sony psp and the nintendo ds since they are cheaper and easier to create than console games .,tech,tech,tech,Y,Y,The sentence specifically discusses video game development for technology platforms like mobile phones and handheld gaming consoles.,"```json
+{
+  ""true_topic"": ""tech"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence specifically discusses video game development for technology platforms like mobile phones and handheld gaming consoles.""
+}
+```",google/gemini-3.5-flash
+75,smart has consistently lost money since it started trading in 1998 and new model launches are now on hold said mercedes chief executive eckhard cordes .,business,business,business,Y,Y,"The sentence discusses financial losses, corporate trading, and strategic decisions announced by a chief executive, which clearly indicates a business topic.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence discusses financial losses, corporate trading, and strategic decisions announced by a chief executive, which clearly indicates a business topic.""
+}
+```",google/gemini-3.5-flash
+76,with the other two big parties battling over which will impose the lowest taxes mr kennedy is going into the looming election pledged to increase taxation .,politics,politics,politics,Y,Y,"The sentence explicitly discusses political parties, elections, and taxation policy, clearly indicating a political topic.","```json
+{
+  ""true_topic"": ""politics"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence explicitly discusses political parties, elections, and taxation policy, clearly indicating a political topic.""
+}
+```",google/gemini-3.5-flash
+77,when it does not it is tedious .,tech,tech,none,N,N,The sentence is entirely generic and contains no keywords or context to suggest technology or any other specific topic.,"```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence is entirely generic and contains no keywords or context to suggest technology or any other specific topic.""
+}
+```",google/gemini-3.5-flash
+78,but dvds will be sent to oscar voters who will be invited to screenings .,entertainment,entertainment,entertainment,Y,Y,"The mention of Oscar voters, DVDs, and movie screenings clearly relates to the film and entertainment industry.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The mention of Oscar voters, DVDs, and movie screenings clearly relates to the film and entertainment industry.""
+}
+```",google/gemini-3.5-flash
+79,bmw sold more than 100 of the iconic models compared with just ten the previous year .,business,tech,business,Y,N,"The sentence strictly discusses sales volume and year-over-year growth for a company, which clearly signals business rather than technology.","```json
+{
+  ""true_topic"": ""business"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence strictly discusses sales volume and year-over-year growth for a company, which clearly signals business rather than technology.""
+}
+```",google/gemini-3.5-flash
+80,it then emerged tods murray has a client which opposes the development .,politics,tech,none,N,N,"The sentence mentions a law firm and a client opposing a development, which relates to legal or planning matters rather than tech or explicit politics.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence mentions a law firm and a client opposing a development, which relates to legal or planning matters rather than tech or explicit politics.""
+}
+```",google/gemini-3.5-flash
+81,he s lost more than three years of his life locked up for a crime he did not commit .,entertainment,entertainment,none,N,N,"The sentence describes wrongful imprisonment and legal issues, which does not signal entertainment or any of the other standard categories.","```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence describes wrongful imprisonment and legal issues, which does not signal entertainment or any of the other standard categories.""
+}
+```",google/gemini-3.5-flash
+82,radcliffe concedes she will probably learn a lot from her bad experiences in athens in time .,sport,sport,sport,Y,Y,"The sentence refers to British athlete Paula Radcliffe and her experiences at the Athens Olympics, clearly signaling a sports topic.","```json
+{
+  ""true_topic"": ""sport"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence refers to British athlete Paula Radcliffe and her experiences at the Athens Olympics, clearly signaling a sports topic.""
+}
+```",google/gemini-3.5-flash
+83,the film has caused some controversy in showing hitler as a fallible but human man rather than a semi-mythical historical monster .,entertainment,entertainment,entertainment,Y,Y,"The sentence specifically discusses the depiction of a historical figure in a film, which clearly falls under entertainment.","```json
+{
+  ""true_topic"": ""entertainment"",
+  ""on_topic"": ""Y"",
+  ""pred_plausible"": ""Y"",
+  ""reason"": ""The sentence specifically discusses the depiction of a historical figure in a film, which clearly falls under entertainment.""
+}
+```",google/gemini-3.5-flash
+84,maybe they want to start something and make it worse than than it is .,sport,tech,none,N,N,The sentence is a generic statement that contains no domain-specific keywords or context to indicate any topic.,"```json
+{
+  ""true_topic"": ""none"",
+  ""on_topic"": ""N"",
+  ""pred_plausible"": ""N"",
+  ""reason"": ""The sentence is a generic statement that contains no domain-specific keywords or context to indicate any topic.""
+}
+```",google/gemini-3.5-flash
+85,the process to see the new domain names go live in cyberspace could take months and icann officials warned that there were no guarantees they would ultimately be accepted .,tech,business,,,,,FAILED,google/gemini-3.5-flash
+86,when interrogated with a mobile phone the posters pass on a number that people can call to get information about the safest route home .,tech,tech,,,,,FAILED,google/gemini-3.5-flash
+87,anthony became lopez s third husband in june 2004 .,entertainment,business,,,,,FAILED,google/gemini-3.5-flash
+88,he went on to speak about the evils of binge drinking and railed against irresponsible drinks promotions .,politics,politics,,,,,FAILED,google/gemini-3.5-flash
+89,sociedad set to rescue mladenovic rangers are set to loan out-of-favour midfielder dragan mladenovic to real sociedad despite the closure of the january transfer window .,sport,sport,,,,,FAILED,google/gemini-3.5-flash
+90,he highlighted the party s promises to raise the basic state pension provide free long-term care for the elderly and replace council tax seen as a particular problem for pensioners on fixed incomes .,politics,politics,,,,,FAILED,google/gemini-3.5-flash
+91,internet access on other devices tends to be something taken up by those who already have it said adrian hosford director of corporate responsibility at bt .,tech,tech,,,,,FAILED,google/gemini-3.5-flash
+92,iraq s trade minister mohammed mustafa al-jibouri welcomed the move describing it as significant as november s decision by the paris club of creditor nations to write off 80% of the country s debts .,business,business,,,,,FAILED,google/gemini-3.5-flash
+93,the deal was a natural development of its joint venture with united said tony froggatt s&n s chief executive .,business,business,,,,,FAILED,google/gemini-3.5-flash
+94,mr keating described bbc two as the natural home of top of the pops .,entertainment,entertainment,,,,,FAILED,google/gemini-3.5-flash
+95,but opponents of the bill including tory lord campbell of alloway and the bishop of winchester the rt rev michael scott-joynt said it would separate the state from both the church of england and the christian faith .,politics,politics,,,,,FAILED,google/gemini-3.5-flash
+96,o driscoll heads a star-studded cast for the contest to raise funds for the tsunami appeal .,sport,sport,,,,,FAILED,google/gemini-3.5-flash
+97,this latest move to boost business has prompted speculation other firms will be forced to match their fares hurting revenues in the sector .,business,business,,,,,FAILED,google/gemini-3.5-flash
+98,the book by sunday telegraph journalist robert peston and serialised in the newspaper said the pair had mutual animosity and contempt for each other .,politics,politics,,,,,FAILED,google/gemini-3.5-flash
+99,the bottom line is they were just better than us this weekend .,sport,sport,,,,,FAILED,google/gemini-3.5-flash
