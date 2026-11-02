@@ -96,7 +96,7 @@ annotation/
 ### BBC-Sentences
 
 BBC-Sentences is built deterministically by the notebook (section 5): each BBC News article is split into sentences
-and every sentence of five or more words inherits its article's label (section 5 prints the exact train/test sentence counts).
+and every sentence of five or more words inherits its article's label (22,794 training and 18,181 test sentences).
 The full sentence files are not redistributed here because the article text is copyright of the BBC
 (the original dataset is released for non-commercial research use); running section 5 regenerates them exactly.
 The 100 annotated sentences in `annotation/` are included as a sample.
