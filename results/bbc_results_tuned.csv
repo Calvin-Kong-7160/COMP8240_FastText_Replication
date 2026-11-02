@@ -1,0 +1,9 @@
+data,bigrams,setting,acc_%,train_sec
+BBC articles,False,"paper (5 ep, lr 0.25)",36.1,
+BBC articles,False,"tuned (25 ep, lr 0.5)",95.7,1.0
+BBC articles,True,"paper (5 ep, lr 0.25)",22.4,
+BBC articles,True,"tuned (25 ep, lr 1.0)",95.1,4.5
+BBC sentences,False,"paper (5 ep, lr 0.25)",80.4,
+BBC sentences,False,"tuned (5 ep, lr 0.25)",79.4,0.8
+BBC sentences,True,"paper (5 ep, lr 0.25)",81.2,
+BBC sentences,True,"tuned (5 ep, lr 0.5)",80.8,2.8

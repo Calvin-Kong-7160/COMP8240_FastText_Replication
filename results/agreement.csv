@@ -1,0 +1,7 @@
+pair,question,n,raw_agreement,cohen_kappa
+A vs B,on_topic,100,0.83,0.61
+A vs B,true_topic,100,0.78,0.74
+A vs LLM,on_topic,85,0.8,0.53
+A vs LLM,true_topic,85,0.76,0.72
+B vs LLM,on_topic,85,0.85,0.61
+B vs LLM,true_topic,85,0.8,0.76
